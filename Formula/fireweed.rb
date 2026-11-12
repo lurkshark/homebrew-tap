@@ -5,6 +5,14 @@ class Fireweed < Formula
   version "0.1.0"
   license "GPL-3.0-only"
 
+  bottle do
+    root_url "https://github.com/lurkshark/fireweed/releases/download/v0.1.0"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "4ef87243cdff8e767b66a6cac695615f691181e2d2540192c7cf16eaa32ba1d3"
+    sha256 cellar: :any_skip_relocation, sequoia:       "09016a12ffa6f55e84b8ef998408c35387a11895b9e2bf155a7fa9a4d440f885"
+    sha256 cellar: :any_skip_relocation, arm64_linux:   "4b55fe6160566ddaf6c008e93375ecd1e891f43812ffa449fde2203624e3fa31"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "9317d687fe573e010cd78483db2ae17cf623ec93c17b0ca2341e8002d7ae34a2"
+  end
+
   on_macos do
     on_arm do
       url "https://github.com/lurkshark/fireweed/releases/download/v0.1.0/fireweed_0.1.0_darwin_arm64.tar.gz"
