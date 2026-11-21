@@ -2,36 +2,36 @@
 class Fireweed < Formula
   desc "Local CLI for checked spec-driven development"
   homepage "https://github.com/lurkshark/fireweed"
-  version "0.2.4"
+  version "0.3.0"
   license "GPL-3.0-only"
 
   bottle do
-    root_url "https://github.com/lurkshark/fireweed/releases/download/v0.2.4"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "0c50770a00e8371771bc657b55db37985f24881341aa419c277d26ad2d6ed659"
-    sha256 cellar: :any_skip_relocation, sequoia:       "50fd1b245a3ccbc8cc8af4a244b25195aa9ac219b26cbf71e1e4478c953a56d6"
-    sha256 cellar: :any_skip_relocation, arm64_linux:   "b2acfa0854f61b86542b341898cac4cb9b35eb1e853272a741c159650b3f5b38"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:  "8758f16974c3b86a17e275d4ed420775d32a53d786c307873d612ad50bf1af36"
+    root_url "https://github.com/lurkshark/fireweed/releases/download/v0.3.0"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "4e02da3456d41f8aae744fac86572f7ac38f68bd22aaa1b8df11491f4df61ecf"
+    sha256 cellar: :any_skip_relocation, sequoia:       "fc104a8828b103e746384a971b553912c58757d7bb46ade81bd4d3d606282499"
+    sha256 cellar: :any_skip_relocation, arm64_linux:   "61f65a88c24dd64f0a52447866bf72129540f5fa6f8e038dc832ecccd298270c"
+    sha256 cellar: :any_skip_relocation, x86_64_linux:  "3e1cf31fb0ba956010df883ba53d85f2c1b632b09f25237cbb1d780b6ea96a16"
   end
 
   on_macos do
     on_arm do
-      url "https://github.com/lurkshark/fireweed/releases/download/v0.2.4/fireweed_0.2.4_darwin_arm64.tar.gz"
-      sha256 "36b260bb46d02c91b229290dce3be9822358fe2c54ff7b5e947447c917f95b4c"
+      url "https://github.com/lurkshark/fireweed/releases/download/v0.3.0/fireweed_0.3.0_darwin_arm64.tar.gz"
+      sha256 "6a0a4367eba88df730932359a3764760a3b202744564d8572c93e52a8688a3df"
     end
     on_intel do
-      url "https://github.com/lurkshark/fireweed/releases/download/v0.2.4/fireweed_0.2.4_darwin_amd64.tar.gz"
-      sha256 "309f951b85d73d02eba4e8824499848bc06a6925af8d7d60e2b445595ce06239"
+      url "https://github.com/lurkshark/fireweed/releases/download/v0.3.0/fireweed_0.3.0_darwin_amd64.tar.gz"
+      sha256 "c0a881db47798c21811a666a740928841d6cdbc0b9f8fb0ba12e13e8b1ccabdc"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/lurkshark/fireweed/releases/download/v0.2.4/fireweed_0.2.4_linux_arm64.tar.gz"
-      sha256 "d3020445c4b820ae2bc299e73f4e442d304a2ba93c6627148e069354a4b0b34b"
+      url "https://github.com/lurkshark/fireweed/releases/download/v0.3.0/fireweed_0.3.0_linux_arm64.tar.gz"
+      sha256 "7688a1bbea7bb6c5aa51d2bd96565e42e55fa3566d53abacd78173a93fd60508"
     end
     on_intel do
-      url "https://github.com/lurkshark/fireweed/releases/download/v0.2.4/fireweed_0.2.4_linux_amd64.tar.gz"
-      sha256 "269a75b8799b25eedf54ed8989cac4809b74be60a2de893597c36c37f4d1f9c7"
+      url "https://github.com/lurkshark/fireweed/releases/download/v0.3.0/fireweed_0.3.0_linux_amd64.tar.gz"
+      sha256 "b0dbbf98a2f2f3c94914fe10ccecd76c8944569f9080a3c037f6e9c74e1b1e34"
     end
   end
 
